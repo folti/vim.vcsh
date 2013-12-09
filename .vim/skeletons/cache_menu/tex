@@ -1,0 +1,43 @@
+
+menu 90.20 TSke&l.\sub&paragraph :call TSkeletonExpandBitUnderCursor("n", '\subparagraph')<cr>
+imenu90.20 TSke&l.\sub&paragraph <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", '\subparagraph')<cr>
+menu 90.19 TSke&l.&begin.&description :call TSkeletonExpandBitUnderCursor("n", 'description')<cr>
+imenu90.19 TSke&l.&begin.&description <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", 'description')<cr>
+menu 90.19 TSke&l.&begin.&enumerate :call TSkeletonExpandBitUnderCursor("n", 'enumerate')<cr>
+imenu90.19 TSke&l.&begin.&enumerate <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", 'enumerate')<cr>
+menu 90.20 TSke&l.\label :call TSkeletonExpandBitUnderCursor("n", '\label')<cr>
+imenu90.20 TSke&l.\label <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", '\label')<cr>
+menu 90.19 TSke&l.&begin.tabu&lar :call TSkeletonExpandBitUnderCursor("n", 'tabular')<cr>
+imenu90.19 TSke&l.&begin.tabu&lar <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", 'tabular')<cr>
+menu 90.20 TSke&l.\section :call TSkeletonExpandBitUnderCursor("n", '\section')<cr>
+imenu90.20 TSke&l.\section <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", '\section')<cr>
+menu 90.20 TSke&l.\paragraph :call TSkeletonExpandBitUnderCursor("n", '\paragraph')<cr>
+imenu90.20 TSke&l.\paragraph <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", '\paragraph')<cr>
+menu 90.20 TSke&l.\multicolumn :call TSkeletonExpandBitUnderCursor("n", '\multicolumn')<cr>
+imenu90.20 TSke&l.\multicolumn <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", '\multicolumn')<cr>
+menu 90.20 TSke&l.\subsubsection :call TSkeletonExpandBitUnderCursor("n", '\subsubsection')<cr>
+imenu90.20 TSke&l.\subsubsection <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", '\subsubsection')<cr>
+menu 90.19 TSke&l.&begin.&table :call TSkeletonExpandBitUnderCursor("n", 'table')<cr>
+imenu90.19 TSke&l.&begin.&table <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", 'table')<cr>
+menu 90.20 TSke&l.\item :call TSkeletonExpandBitUnderCursor("n", '\item')<cr>
+imenu90.20 TSke&l.\item <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", '\item')<cr>
+menu 90.19 TSke&l.&begin.&quotation :call TSkeletonExpandBitUnderCursor("n", 'quotation')<cr>
+imenu90.19 TSke&l.&begin.&quotation <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", 'quotation')<cr>
+menu 90.19 TSke&l.&begin.&quote :call TSkeletonExpandBitUnderCursor("n", 'quote')<cr>
+imenu90.19 TSke&l.&begin.&quote <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", 'quote')<cr>
+menu 90.20 TSke&l.\item[] :call TSkeletonExpandBitUnderCursor("n", '\item[]')<cr>
+imenu90.20 TSke&l.\item[] <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", '\item[]')<cr>
+menu 90.19 TSke&l.&begin.\&begin :call TSkeletonExpandBitUnderCursor("n", '\begin')<cr>
+imenu90.19 TSke&l.&begin.\&begin <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", '\begin')<cr>
+menu 90.19 TSke&l.&begin.&itemize :call TSkeletonExpandBitUnderCursor("n", 'itemize')<cr>
+imenu90.19 TSke&l.&begin.&itemize <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", 'itemize')<cr>
+menu 90.19 TSke&l.&begin.&verbatim :call TSkeletonExpandBitUnderCursor("n", 'verbatim')<cr>
+imenu90.19 TSke&l.&begin.&verbatim <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", 'verbatim')<cr>
+menu 90.19 TSke&l.&begin.&figure :call TSkeletonExpandBitUnderCursor("n", 'figure')<cr>
+imenu90.19 TSke&l.&begin.&figure <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", 'figure')<cr>
+menu 90.20 TSke&l.\subsection :call TSkeletonExpandBitUnderCursor("n", '\subsection')<cr>
+imenu90.20 TSke&l.\subsection <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", '\subsection')<cr>
+menu 90.20 TSke&l.\usepackage :call TSkeletonExpandBitUnderCursor("n", '\usepackage')<cr>
+imenu90.20 TSke&l.\usepackage <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", '\usepackage')<cr>
+menu 90.20 TSke&l.\footnote :call TSkeletonExpandBitUnderCursor("n", '\footnote')<cr>
+imenu90.20 TSke&l.\footnote <c-\><c-o>:call TSkeletonExpandBitUnderCursor("i", '\footnote')<cr>
