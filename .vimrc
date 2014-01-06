@@ -145,11 +145,37 @@ if has("autocmd")
 
 endif " has("autocmd")
 
-highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
-highlight WhitespaceEOL term=reverse ctermbg=Red guibg=Red
-match WhitespaceEOL /\s\+$/
+"====[ Make tabs, trailing whitespace, and non-breaking spaces visible ]======
+exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
+set list
 
+"" highlight spaces at the end of line.
+" highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+" highlight WhitespaceEOL term=reverse ctermbg=Red guibg=Red
+" match WhitespaceEOL /\s\+$/
+
+"" force json filetype for files with .json extension
 au BufRead,BufNewFile *.json setf json
+
+" make the 81st column stand out
+highlight ColorColumn ctermbg=red
+
+function! s:SetLastColumn()
+    let _colorcolumn=81
+    if &filetype == "gitcommit"
+        let _colorcolumn=76
+    elseif &filetype == "mail"
+        let _colorcolumn=76
+    elseif &filetype == "python"
+        let _colorcolumn=119
+    elseif &filetype == "vim"
+        let _colorcolumn=0
+    endif
+    call matchadd('ColorColumn', '\%'._colorcolumn.'v', 100)
+endfunction
+
+" Python
+au BufNewFile,BufRead *.zts setf python
 
 "" LustyExplorer
 set hidden
@@ -292,22 +318,24 @@ function! MaintChg()
     let lno=line(".")
     exec 'norm 1G'
     if line("$") > 20
-	let l = 20
+    let l = 20
     else
-	let l = line("$")
+    let l = line("$")
     endif
     if search("^Maintainer: ","W") > 0
-    	exe "1," . l . "g/Maintainer: /s/Maintainer: .*/Maintainer: " . g:debianfullname  . " <" . g:debianemail . ">"
+        exe "1," . l . "g/Maintainer: /s/Maintainer: .*/Maintainer: " . g:debianfullname  . " <" . g:debianemail . ">"
     endif
 
     if search("^Packager: ","W") > 0
-	exe "1," . l . "g/Packager: /s/Packager: .*/Packager: " . g:debianfullname  . " <" . g:debianemail . ">"
-   endif
+        exe "1," . l . "g/Packager: /s/Packager: .*/Packager: " . g:debianfullname  . " <" . g:debianemail . ">"
+    endif
 
-   if search("^Uploaders: ","W") > 0
-   	exe "1," . l . "g/Uploaders: /d"
-   endif
+    if search("^Uploaders: ","W") > 0
+         exe "1," . l . "g/Uploaders: /d"
+    endif
     exec 'norm '.lno.'G'
 endfun
+
+au BufEnter,BufRead * call s:SetLastColumn()
 
 " vim:  expandtab ts=4 sw=4
