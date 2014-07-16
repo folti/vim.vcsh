@@ -50,11 +50,15 @@ set mouse=a
 set wildmenu
 set wildmode=list:longest,full
 
-syn on
-colorscheme desert
-
 " initialize the pathogen plugin
 call pathogen#infect()
+
+syn on
+colorscheme desert
+if &term =~ '.*256color'
+    colorscheme desert256
+    set t_Co=256
+endif
 
 " damn you debian
 filetype plugin on
