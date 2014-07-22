@@ -106,3 +106,6 @@
 [submodule ".vim/bundle/sqlutils"]
 	path = .vim/bundle/sqlutils
 	url = https://github.com/vim-scripts/SQLUtilities.git
+[submodule ".vim/bundle/vim-addon-mw-utils"]
+	path = .vim/bundle/vim-addon-mw-utils
+	url = https://github.com/vim-scripts/vim-addon-mw-utils.git
