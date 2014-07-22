@@ -76,3 +76,6 @@
 [submodule ".vim/bundle/viki_vim"]
 	path = .vim/bundle/viki_vim
 	url = https://github.com/tomtom/viki_vim.git
+[submodule ".vim/bundle/tlib"]
+	path = .vim/bundle/tlib
+	url = https://github.com/vim-scripts/tlib.git
