@@ -73,3 +73,6 @@
 [submodule ".vim/bundle/vim-bookmark"]
 	path = .vim/bundle/vim-bookmark
 	url = https://github.com/vim-scripts/vim-bookmarks.git
+[submodule ".vim/bundle/viki_vim"]
+	path = .vim/bundle/viki_vim
+	url = https://github.com/tomtom/viki_vim.git
