@@ -52,3 +52,21 @@
 [submodule ".vim/bundle/patchreview"]
 	path = .vim/bundle/patchreview
 	url = https://github.com/vim-scripts/patchreview.vim.git
+[submodule ".vim/bundle/tSkeleton"]
+	path = .vim/bundle/tSkeleton
+	url = https://github.com/vim-scripts/tSkeleton.git
+[submodule ".vim/bundle/Licenses"]
+	path = .vim/bundle/Licenses
+	url = https://github.com/vim-scripts/Licenses.git
+[submodule ".vim/bundle/diffchar"]
+	path = .vim/bundle/diffchar
+	url = https://github.com/vim-scripts/diffchar.vim.git
+[submodule ".vim/bundle/wildfire"]
+	path = .vim/bundle/wildfire
+	url = https://github.com/gcmt/wildfire.vim.git
+[submodule ".vim/bundle/VimOutliner"]
+	path = .vim/bundle/VimOutliner
+	url = https://github.com/vim-scripts/VimOutliner.git
+[submodule ".vim/bundle/iptables"]
+	path = .vim/bundle/iptables
+	url = https://github.com/vim-scripts/iptables.git
