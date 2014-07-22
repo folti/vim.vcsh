@@ -103,3 +103,6 @@
 [submodule ".vim/bundle/utl.vim"]
 	path = .vim/bundle/utl.vim
 	url = https://github.com/vim-scripts/utl.vim.git
+[submodule ".vim/bundle/sqlutils"]
+	path = .vim/bundle/sqlutils
+	url = https://github.com/vim-scripts/SQLUtilities.git
