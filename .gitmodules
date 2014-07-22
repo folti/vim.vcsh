@@ -46,3 +46,6 @@
 [submodule ".vim/bundle/improved-ansiesc"]
 	path = .vim/bundle/improved-ansiesc
 	url = https://github.com/vim-scripts/Improved-AnsiEsc.git
+[submodule ".vim/bundle/perl-support"]
+	path = .vim/bundle/perl-support
+	url = https://github.com/vim-scripts/perl-support.vim.git
