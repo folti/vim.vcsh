@@ -37,3 +37,12 @@
 [submodule ".vim/bundle/autoswap"]
 	path = .vim/bundle/autoswap
 	url = https://github.com/vim-scripts/autoswap.vim.git
+[submodule ".vim/bundle/bash-support"]
+	path = .vim/bundle/bash-support
+	url = https://github.com/vim-scripts/bash-support.vim.git
+[submodule ".vim/bundle/awk-support"]
+	path = .vim/bundle/awk-support
+	url = https://github.com/vim-scripts/awk-support.vim.git
+[submodule ".vim/bundle/improved-ansiesc"]
+	path = .vim/bundle/improved-ansiesc
+	url = https://github.com/vim-scripts/Improved-AnsiEsc.git
