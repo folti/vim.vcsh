@@ -118,3 +118,6 @@
 [submodule ".vim/bundle/ShowMarks"]
 	path = .vim/bundle/ShowMarks
 	url = https://github.com/vim-scripts/ShowMarks.git
+[submodule ".vim/bundle/genutils"]
+	path = .vim/bundle/genutils
+	url = https://github.com/vim-scripts/genutils.git
