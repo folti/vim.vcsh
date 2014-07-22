@@ -88,3 +88,6 @@
 [submodule ".vim/bundle/project"]
 	path = .vim/bundle/project
 	url = https://github.com/vimplugin/project.vim.git
+[submodule ".vim/bundle/xmledit"]
+	path = .vim/bundle/xmledit
+	url = https://github.com/sukima/xmledit.git
