@@ -94,3 +94,6 @@
 [submodule ".vim/bundle/rscvers"]
 	path = .vim/bundle/rscvers
 	url = https://github.com/vim-scripts/rcsvers.vim.git
+[submodule ".vim/bundle/snipMate"]
+	path = .vim/bundle/snipMate
+	url = https://github.com/garbas/vim-snipmate.git
