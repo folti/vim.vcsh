@@ -115,3 +115,6 @@
 [submodule ".vim/bundle/multivals.vim"]
 	path = .vim/bundle/multivals.vim
 	url = https://github.com/vim-scripts/multvals.vim.git
+[submodule ".vim/bundle/ShowMarks"]
+	path = .vim/bundle/ShowMarks
+	url = https://github.com/vim-scripts/ShowMarks.git
