@@ -121,3 +121,6 @@
 [submodule ".vim/bundle/genutils"]
 	path = .vim/bundle/genutils
 	url = https://github.com/vim-scripts/genutils.git
+[submodule ".vim/bundle/bufferlist"]
+	path = .vim/bundle/bufferlist
+	url = https://github.com/vim-scripts/bufferlist.vim.git
