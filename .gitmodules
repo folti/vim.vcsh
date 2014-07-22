@@ -28,3 +28,12 @@
 [submodule ".vim/bundle/vim-pathogen"]
 	path = .vim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule ".vim/bundle/vim-less"]
+	path = .vim/bundle/vim-less
+	url = https://github.com/vim-scripts/vim-less--Vioni.git
+[submodule ".vim/bundle/openvpn"]
+	path = .vim/bundle/openvpn
+	url = https://github.com/vim-scripts/openvpn.git
+[submodule ".vim/bundle/autoswap"]
+	path = .vim/bundle/autoswap
+	url = https://github.com/vim-scripts/autoswap.vim.git
