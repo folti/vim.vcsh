@@ -64,9 +64,6 @@
 [submodule ".vim/bundle/wildfire"]
 	path = .vim/bundle/wildfire
 	url = https://github.com/gcmt/wildfire.vim.git
-[submodule ".vim/bundle/VimOutliner"]
-	path = .vim/bundle/VimOutliner
-	url = https://github.com/vim-scripts/VimOutliner.git
 [submodule ".vim/bundle/iptables"]
 	path = .vim/bundle/iptables
 	url = https://github.com/vim-scripts/iptables.git
@@ -124,3 +121,12 @@
 [submodule ".vim/bundle/bufferlist"]
 	path = .vim/bundle/bufferlist
 	url = https://github.com/vim-scripts/bufferlist.vim.git
+[submodule ".vim/bundle/vim-afterimage"]
+	path = .vim/bundle/vim-afterimage
+	url = https://github.com/tpope/vim-afterimage.git
+[submodule ".vim/bundle/vim-jdaddy"]
+	path = .vim/bundle/vim-jdaddy
+	url = https://github.com/tpope/vim-jdaddy.git
+[submodule ".vim/bundle/viewdoc"]
+	path = .vim/bundle/viewdoc
+	url = https://github.com/vim-scripts/viewdoc.git
