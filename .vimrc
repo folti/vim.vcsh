@@ -161,6 +161,9 @@ set list
 " highlight WhitespaceEOL term=reverse ctermbg=Red guibg=Red
 " match WhitespaceEOL /\s\+$/
 
+" Python
+au BufNewFile,BufRead *.zts setf python
+
 "" force json filetype for files with .json extension
 au BufRead,BufNewFile *.json setf json
 
@@ -183,9 +186,6 @@ function! s:SetLastColumn()
     endif
     call matchadd('ColorColumn', '\%'._colorcolumn.'v', 100)
 endfunction
-
-" Python
-au BufNewFile,BufRead *.zts setf python
 
 "" LustyExplorer
 set hidden
