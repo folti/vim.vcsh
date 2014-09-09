@@ -50,6 +50,9 @@ set mouse=a
 set wildmenu
 set wildmode=list:longest,full
 
+" always numbers, all the time
+set nu
+
 " initialize the pathogen plugin
 call pathogen#infect()
 
