@@ -128,7 +128,7 @@
 	path = .vim/bundle/viewdoc
 	url = https://github.com/vim-scripts/viewdoc.git
 [submodule "/home/folti/.vim/bundle/vim-geeknote"]
-	path = /home/folti/.vim/bundle/vim-geeknote
+	path = .vim/bundle/vim-geeknote
 	url = https://github.com/neilagabriel/vim-geeknote
 [submodule ".vim/bundle/Colour-Sampler-Pack"]
 	path = .vim/bundle/Colour-Sampler-Pack
