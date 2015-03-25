@@ -1,6 +1,3 @@
-[submodule ".vim/bundle/color-sampler-pack"]
-	path = .vim/bundle/color-sampler-pack
-	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
 [submodule ".vim/bundle/vim-markdown"]
 	path = .vim/bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
@@ -133,3 +130,6 @@
 [submodule "/home/folti/.vim/bundle/vim-geeknote"]
 	path = /home/folti/.vim/bundle/vim-geeknote
 	url = https://github.com/neilagabriel/vim-geeknote
+[submodule ".vim/bundle/Colour-Sampler-Pack"]
+	path = .vim/bundle/Colour-Sampler-Pack
+	url = http://github.com/vim-scripts/Colour-Sampler-Pack
