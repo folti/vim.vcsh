@@ -133,3 +133,6 @@
 [submodule ".vim/bundle/Colour-Sampler-Pack"]
 	path = .vim/bundle/Colour-Sampler-Pack
 	url = http://github.com/vim-scripts/Colour-Sampler-Pack
+[submodule ".vim/bundle/vim-desert-warm-256"]
+	path = .vim/bundle/vim-desert-warm-256
+	url = https://github.com/rainux/vim-desert-warm-256.git
