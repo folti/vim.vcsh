@@ -167,9 +167,6 @@ au BufNewFile,BufRead *.zts setf python
 "" force json filetype for files with .json extension
 au BufRead,BufNewFile *.json setf json
 
-"" force YAML filetype for files with .sls (SaltStack) extension
-au BufRead,BufNewFile *.sls set ft=yaml ts=2 expandtab
-
 " make the 81st column stand out
 highlight ColorColumn ctermbg=red
 
