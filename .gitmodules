@@ -139,3 +139,15 @@
 [submodule ".vim/bundle/salt-vim"]
 	path = .vim/bundle/salt-vim
 	url = https://github.com/saltstack/salt-vim.git
+[submodule ".vim/bundle/Dockerfile.vim"]
+	path = .vim/bundle/Dockerfile.vim
+	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/bundle/vim-devicons"]
+	path = .vim/bundle/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule ".vim/bundle/css.vim"]
+	path = .vim/bundle/css.vim
+	url = https://github.com/JulesWang/css.vim
