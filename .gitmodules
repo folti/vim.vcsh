@@ -136,3 +136,6 @@
 [submodule ".vim/bundle/vim-desert-warm-256"]
 	path = .vim/bundle/vim-desert-warm-256
 	url = https://github.com/rainux/vim-desert-warm-256.git
+[submodule ".vim/bundle/salt-vim"]
+	path = .vim/bundle/salt-vim
+	url = https://github.com/saltstack/salt-vim.git
