@@ -154,3 +154,12 @@
 [submodule ".vim/bundle/gv.vim"]
 	path = .vim/bundle/gv.vim
 	url = https://github.com/junegunn/gv.vim.git
+[submodule ".vim/bundle/c.vim"]
+	path = .vim/bundle/c.vim
+	url = https://github.com/vim-scripts/c.vim
+[submodule ".vim/bundle/L9"]
+	path = .vim/bundle/L9
+	url = https://github.com/vim-scripts/L9
+[submodule ".vim/bundle/taglist.vim"]
+	path = .vim/bundle/taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim.git
