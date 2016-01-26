@@ -151,3 +151,6 @@
 [submodule ".vim/bundle/css.vim"]
 	path = .vim/bundle/css.vim
 	url = https://github.com/JulesWang/css.vim
+[submodule ".vim/bundle/gv.vim"]
+	path = .vim/bundle/gv.vim
+	url = https://github.com/junegunn/gv.vim.git
