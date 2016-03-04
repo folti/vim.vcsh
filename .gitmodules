@@ -166,3 +166,6 @@
 [submodule "vim-sensible"]
 	path = vim-sensible
 	url = https://github.com/tpope/vim-sensible
+[submodule ".vim/bundle/QFEnter"]
+	path = .vim/bundle/QFEnter
+	url = https://github.com/yssl/QFEnter
