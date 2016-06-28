@@ -164,23 +164,23 @@
 	path = .vim/bundle/taglist.vim
 	url = https://github.com/vim-scripts/taglist.vim.git
 [submodule "vim-sensible"]
-	path = vim-sensible
+	path = .vim/bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible
 [submodule ".vim/bundle/QFEnter"]
 	path = .vim/bundle/QFEnter
 	url = https://github.com/yssl/QFEnter
 [submodule "vim-javascript-syntax"]
-	path = vim-javascript-syntax
+	path = .vim/bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax.git
 [submodule "vim-javascript"]
-	path = vim-javascript
+	path = .vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
 [submodule "vim-indent-guides"]
-	path = vim-indent-guides
+	path = .vim/bundle/vim-indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
 [submodule "delimitMate"]
-	path = delimitMate
+	path = .vim/bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
 [submodule "YouCompleteMe"]
-	path = YouCompleteMe
+	path = .vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
