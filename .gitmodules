@@ -127,7 +127,7 @@
 [submodule ".vim/bundle/viewdoc"]
 	path = .vim/bundle/viewdoc
 	url = https://github.com/vim-scripts/viewdoc.git
-[submodule "/home/folti/.vim/bundle/vim-geeknote"]
+[submodule ".vim/bundle/vim-geeknote"]
 	path = .vim/bundle/vim-geeknote
 	url = https://github.com/neilagabriel/vim-geeknote
 [submodule ".vim/bundle/Colour-Sampler-Pack"]
@@ -163,24 +163,24 @@
 [submodule ".vim/bundle/taglist.vim"]
 	path = .vim/bundle/taglist.vim
 	url = https://github.com/vim-scripts/taglist.vim.git
-[submodule "vim-sensible"]
-	path = .vim/bundle/vim-sensible
-	url = https://github.com/tpope/vim-sensible
 [submodule ".vim/bundle/QFEnter"]
 	path = .vim/bundle/QFEnter
 	url = https://github.com/yssl/QFEnter
-[submodule "vim-javascript-syntax"]
+[submodule ".vim/bundle/vim-sensible"]
+	path = .vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible
+[submodule ".vim/bundle/vim-javascript-syntax"]
 	path = .vim/bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax.git
-[submodule "vim-javascript"]
+[submodule ".vim/bundle/vim-javascript"]
 	path = .vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
-[submodule "vim-indent-guides"]
+[submodule ".vim/bundle/vim-indent-guides"]
 	path = .vim/bundle/vim-indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
-[submodule "delimitMate"]
+[submodule ".vim/bundle/delimitMate"]
 	path = .vim/bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
-[submodule "YouCompleteMe"]
+[submodule ".vim/bundle/YouCompleteMe"]
 	path = .vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
