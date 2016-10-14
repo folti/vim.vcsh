@@ -187,3 +187,6 @@
 [submodule ".vim/bundle/vim-nginx"]
 	path = .vim/bundle/vim-nginx
 	url = https://github.com/13k/vim-nginx
+[submodule ".vim/bundle/vim-fuzzyfinder"]
+	path = .vim/bundle/vim-fuzzyfinder
+	url = https://github.com/cfurrow/vim-fuzzyfinder.git
