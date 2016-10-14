@@ -184,3 +184,6 @@
 [submodule ".vim/bundle/YouCompleteMe"]
 	path = .vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
+[submodule ".vim/bundle/vim-nginx"]
+	path = .vim/bundle/vim-nginx
+	url = https://github.com/13k/vim-nginx
