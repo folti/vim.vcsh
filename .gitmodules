@@ -127,9 +127,6 @@
 [submodule ".vim/bundle/viewdoc"]
 	path = .vim/bundle/viewdoc
 	url = https://github.com/vim-scripts/viewdoc.git
-[submodule ".vim/bundle/vim-geeknote"]
-	path = .vim/bundle/vim-geeknote
-	url = https://github.com/neilagabriel/vim-geeknote
 [submodule ".vim/bundle/Colour-Sampler-Pack"]
 	path = .vim/bundle/Colour-Sampler-Pack
 	url = http://github.com/vim-scripts/Colour-Sampler-Pack
