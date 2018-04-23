@@ -111,7 +111,7 @@
 	url = https://github.com/vim-scripts/multvals.vim.git
 [submodule ".vim/bundle/ShowMarks"]
 	path = .vim/bundle/ShowMarks
-	url = https://github.com/vim-scripts/ShowMarks.git
+	url = https://github.com/folti/ShowMarks.git
 [submodule ".vim/bundle/genutils"]
 	path = .vim/bundle/genutils
 	url = https://github.com/vim-scripts/genutils.git
@@ -187,3 +187,12 @@
 [submodule ".vim/bundle/vim-fuzzyfinder"]
 	path = .vim/bundle/vim-fuzzyfinder
 	url = https://github.com/cfurrow/vim-fuzzyfinder.git
+[submodule ".vim/bundle/vim-jinja"]
+	path = .vim/bundle/vim-jinja
+	url = https://github.com/lepture/vim-jinja.git
+[submodule ".vim/bundle/cisco.vim"]
+	path = .vim/bundle/cisco.vim
+	url = https://github.com/momota/cisco.vim.git
+[submodule ".vim/bundle/ansible-vim"]
+	path = .vim/bundle/ansible-vim
+	url = https://github.com/pearofducks/ansible-vim.git
