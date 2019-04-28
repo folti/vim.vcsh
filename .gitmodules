@@ -4,9 +4,6 @@
 [submodule ".vim/bundle/vim-fugitive"]
 	path = .vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule ".vim/bundle/gundo"]
-	path = .vim/bundle/gundo
-	url = http://github.com/sjl/gundo.vim.git
 [submodule ".vim/bundle/pydoc.vim"]
 	path = .vim/bundle/pydoc.vim
 	url = https://github.com/fs111/pydoc.vim
@@ -199,3 +196,6 @@
 [submodule ".vim/bundle/vim-bracketed-paste"]
 	path = .vim/bundle/vim-bracketed-paste
 	url = https://github.com/ConradIrwin/vim-bracketed-paste
+[submodule ".vim/bundle/undotree"]
+	path = .vim/bundle/undotree
+	url = https://github.com/mbbill/undotree

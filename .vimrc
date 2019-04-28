@@ -79,9 +79,7 @@ let g:rvExcludeExpression='\c_tmp\|\c\.tmp\|mutt\|cvs\|__BUFFERLIST__\|++log\.\|
 "re-map rcsvers.vim keys
 map <F8> \rlog
 
-" toggle the Gundo window.
-" http://sjl.bitbucket.org/gundo.vim/
-nnoremap <F6> :GundoToggle<CR>
+nnoremap <F6> :UndotreeToggle<CR>
 
 " -= bufferlist.vim =-
 map <silent> <F5> :call BufferList()<CR>
@@ -173,7 +171,7 @@ highlight ColorColumn ctermbg=red
 function! s:SetLastColumn()
     let _colorcolumn=81
     if &filetype == "gitcommit"
-        let _colorcolumn=76
+        let _colorcolumn=73
     elseif &filetype == "mail"
         let _colorcolumn=76
     elseif &filetype == "python"
@@ -257,12 +255,12 @@ function! NewZVersion()
         return
     endif
     " The new entry is unfinalised and shall be changed
-    call append(0, substitute(getline(1),'\([[:digit:]]\+\))', '\1.zorpos33.1)', ''))
+    call append(0, substitute(getline(1),'\([[:digit:]]\+\))', '\1.bb0)', ''))
     call append(1, "")
     call append(2, "")
     call append(3, " -- ")
     call append(4, "")
-    call Distribution("3-3-security")
+    call Distribution("bionic")
     call Urgency("low")
     normal 1G0
     call search(")")
@@ -344,6 +342,8 @@ function! MaintChg()
 endfun
 
 au BufEnter,BufRead * call s:SetLastColumn()
+autocmd FileType gitcommit textwidth=72
+
 
 if &term =~ "xterm\\|rxvt"
   " use an orange cursor in insert mode
