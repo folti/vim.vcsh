@@ -63,6 +63,12 @@ if &term =~ '.*256color'
     set t_Co=256
 endif
 
+if &diff
+    colorscheme solarized
+endif
+
+au FilterWritePre * if &diff | colorscheme solarized | endif
+
 " damn you debian
 filetype plugin on
 
