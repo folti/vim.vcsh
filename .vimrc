@@ -56,21 +56,15 @@ set nu
 " initialize the pathogen plugin
 call pathogen#infect()
 
+" damn you debian
+filetype plugin on
+
 syn on
 colorscheme desert
 if &term =~ '.*256color'
     colorscheme desert256
     set t_Co=256
 endif
-
-if &diff
-    colorscheme solarized
-endif
-
-au FilterWritePre * if &diff | colorscheme solarized | endif
-
-" damn you debian
-filetype plugin on
 
 " load the separate identity file
 if filereadable(expand("$HOME/.vim-identities"))
@@ -347,9 +341,19 @@ function! MaintChg()
     exec 'norm '.lno.'G'
 endfun
 
-au BufEnter,BufRead * call s:SetLastColumn()
-autocmd FileType gitcommit textwidth=72
+if &diff
+    colorscheme solarized
+endif
 
+au FilterWritePre * if &diff | colorscheme solarized | endif
+au BufEnter,BufRead * call s:SetLastColumn()
+
+autocmd BufEnter *.csv colorscheme solarized
+augroup FileTypeActions
+    autocmd!
+    autocmd FileType gitcommit textwidth=72
+    autocmd FileType sh et sw=2 tw=2
+augroup END
 
 if &term =~ "xterm\\|rxvt"
   " use an orange cursor in insert mode
