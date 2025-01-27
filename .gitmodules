@@ -199,3 +199,36 @@
 [submodule ".vim/bundle/undotree"]
 	path = .vim/bundle/undotree
 	url = https://github.com/mbbill/undotree
+[submodule ".vim/bundle/fugitive-azure-devops.vim"]
+	path = .vim/bundle/fugitive-azure-devops.vim
+	url = https://github.com/cedarbaum/fugitive-azure-devops.vim
+[submodule ".vim/bundle/Jenkinsfile-vim-syntax"]
+	path = .vim/bundle/Jenkinsfile-vim-syntax
+	url = https://github.com/martinda/Jenkinsfile-vim-syntax.git
+[submodule "csv.vim"]
+	path = csv.vim
+	url = https://github.com/chrisbra/csv.vim
+[submodule ".vim/bundle/csv.vim"]
+	path = .vim/bundle/csv.vim
+	url = https://github.com/chrisbra/csv.vim
+[submodule ".vim/bundle/calendar-vim"]
+	path = .vim/bundle/calendar-vim
+	url = https://github.com/mattn/calendar-vim
+[submodule ".vim/NrrwRgn"]
+	path = .vim/NrrwRgn
+	url = https://github.com/chrisbra/NrrwRgn
+[submodule ".vim/bundle/NrrwRgn"]
+	path = .vim/bundle/NrrwRgn
+	url = https://github.com/chrisbra/NrrwRgn
+[submodule ".vim/bundle/vim-speeddating"]
+	path = .vim/bundle/vim-speeddating
+	url = https://github.com/tpope/vim-speeddating
+[submodule ".vim/bundle/vim-syntaxrange"]
+	path = .vim/bundle/vim-syntaxrange
+	url = https://github.com/inkarkat/vim-SyntaxRange
+[submodule ".vim/bundle/vim-repeat"]
+	path = .vim/bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat
+[submodule ".vim/bundle/tagbar"]
+	path = .vim/bundle/tagbar
+	url = https://github.com/preservim/tagbar
